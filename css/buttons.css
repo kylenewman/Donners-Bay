@@ -1,0 +1,51 @@
+.btn {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 20px 35px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button Blue */
+.btn-steelblue {
+  background-color: #909aa4;
+  color: #fff;
+}
+
+/* Button Blue:Hover; */
+.btn-steelblue-a:hover,
+.btn-steelblue-a:active {
+  background-color: #60b728;
+}
+
+
+/* Brown Blue */
+.btn-orangebrown {
+  background-color: #9e7162;
+  color: #fff;
+}
+
+/* Button Brown:Hover; */
+.btn-orangebrown-a:hover,
+.btn-orangebrown-a:active {
+  background-color: #909aa4;
+}

@@ -1,0 +1,69 @@
+.col_onefourth,
+.col_half,
+.col_threefourth,
+.col_onethird,
+.col_twothird {
+width: 100%;
+}
+
+.price {
+		width: 49%;
+	}
+
+
+@media (min-width: 500px) {
+	.col_onethird {
+		width: 49%;
+	}
+}
+
+
+@media (min-width: 800px) {
+	.col_onefourth,
+	.col_half,
+	.col_threefourth,
+	.col_onethird,
+	.col_twothird {
+	position: relative;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	}
+
+	.col_onethird_fw,
+	.col_onefourth_fw,
+	.col_twothird_fw {
+	position: relative;
+	min-height: 150px;
+	}
+
+	.last {
+	margin-right: 0;
+	}
+
+	.col_half {
+	width: 49%;
+	}
+
+
+	/*    T H I R D S    */
+	.col_onethird {
+	width: 32%;
+	display: inline-block;
+	}
+
+	.col_onethird_fw {
+	width: 33.333%;
+	}
+
+	.col_twothird {
+	width: 64%;
+	display: inline-block;
+	}
+
+	.col_twothird_fw {
+	width: 66.666%;
+	}
+}
+
+
+

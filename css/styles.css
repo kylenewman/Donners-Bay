@@ -1,0 +1,259 @@
+/*********** CLEAR FIX ***********/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+    }
+.group:after {
+    clear: both;
+    }
+.group {
+    *zoom: 1;
+    }
+/*********** CLEAR FIX END ***********/
+
+/*********** BORDER BOX BEGIN ***********/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*********** BORDER BOX END ***********/
+
+
+body {
+	background-color: #fff;
+}
+
+section {
+  padding: 75px 0;
+  max-width: 100%;
+}
+
+.container {
+  	position: relative;
+  	max-width: 1000px;
+  	margin: 5% auto;
+  	padding: 0;
+}
+
+img.banner {
+	width: 100%;
+	min-height: 300px;
+}
+
+.banner  {
+  position: relative;
+  background: url(../img/header_1400.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 500px;
+}
+
+.banner_intro {
+  position: absolute;
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  bottom: 0;
+  padding: 30px 0;
+  /*background-color: rgba(0,0,0,.2);*/
+}
+
+img.spacer {
+	width: 15%;
+	max-width: 150px;
+	min-width: 105px;
+	display: block;
+	margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+#about {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.info{
+	margin: 30px 3%;
+}
+
+.info_box {
+	border: 4px solid #9e7162;
+	float: left;
+	margin: 25px 0;
+}
+
+img.info_icon {
+	width: 20%;
+	margin: -3% 40%;
+	display: block;
+	padding-bottom: 30px;
+}
+
+.numbers	{
+  position: relative;
+	background: url(../img/banner_water.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center center;
+  padding: 100px;
+}
+
+img.muskie, .db_banner img {
+	width: 250px;
+	margin: 0 auto;
+  padding-bottom: 2%;
+  display: block;
+}
+
+@media (max-width: 450px) {
+  img.muskie, .db_banner img {
+    width: 175px;
+  }
+
+  .numbers h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 350px) {
+  img.muskie, .db_banner img {
+    width: 140px;
+  }
+
+  .numbers h3 {
+    font-size: 20px;
+  }
+}
+
+.price, .cabin_box {
+	float: left;
+  background-color: #fff;
+}
+
+.cabin_box {
+  border: #efefe9 solid 5px;
+}
+
+#cabins {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.cabin_section {
+  background-color: #f0f0ea;
+}
+
+img.cabins {
+	width: 100%;
+}
+
+.cabin_information {
+  background-color: #f0f0ea;
+}
+
+.db_banner {
+  position: relative;
+	background: url(../img/icon_banner.jpg);
+	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px;
+}
+
+.avail_button, .numbers_button, .photos_button {
+  padding-top: 25px;
+}
+
+.weather {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 
+}
+
+/********GALLERY*********/
+
+.container_gallery {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.gallery {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 4;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    4;
+   -moz-column-gap:      0px;
+   column-count:         4;
+   column-gap:           0px;
+}
+
+.gallery img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  border: 5px solid #fff;
+}   
+
+@media (max-width: 960px) {
+  .gallery {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+
+@media (max-width: 750px) {
+  .gallery {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+
+@media (max-width: 350px) {
+  .gallery {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+/*********** COLORS BEGIN ***********/
+.tan {
+  color: #efefe9;
+}
+
+.lightbrown {
+  color: #d1c7bc;
+}
+
+.stellblue {
+  color: #909aa4;
+}
+
+.orangebrown {
+  color: #9e7162;
+}
+
+.darkgrey {
+  color: #2a2b2f;
+}
+/*********** COLORS END ***********/

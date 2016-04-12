@@ -1,0 +1,81 @@
+.booking {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+form {
+	padding: 2%;
+}
+
+select {
+	padding: 6px;
+	width: 100%;
+}
+
+label {
+	display: block;
+	margin-right: 0;
+	padding-bottom: 8px;
+	font-size: 13px;
+}
+
+textarea {
+	height: 150px;
+}
+
+input[type="text"],
+input[type="radio"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+	padding: 10px;
+	border-radius: 4px;
+	float: left;
+	margin-bottom: 25px;
+	font-family: "Source Sans Pro";
+	border: 1px #d4d4d4 solid;
+	background-color: rgba(0,0,0,.03);
+	width: 100%;
+}
+
+.contact_info {
+	float: left;
+	vertical-align: top;
+}
+
+.form_half {
+	width: 49%;
+	float: left;
+}
+
+.f_left {
+	padding-right: 15px;
+}
+
+.form_full {
+	width: 98%;
+}
+
+:focus {
+	outline: none;
+}
+
+.form-input {
+	margin-right: 0;
+	display: inline-block;
+}
+
+.owners img {
+	max-width: 85%;
+	border-radius: 50%;
+	min-height: 100px;
+	max-height: 250px;
+	margin-top: 55px;
+}
+
+@media (max-width: 600px) {
+	.form_half {
+		width: 100%;
+	}
+}
